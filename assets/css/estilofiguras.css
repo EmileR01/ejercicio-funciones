@@ -1,0 +1,35 @@
+/*  Hace que todas las tarjetas tengan la misma altura */
+.card {
+    height: 420px;       /* Ajusta si quieres más alto o más bajo */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/*  Centra el texto dentro del card-body */
+.card-body {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+/*  Centra el título */
+.card-body h5 {
+    margin-bottom: 15px;
+}
+
+/* Hace que todos los botones tengan el mismo tamaño */
+.card .btn {
+    width: 120px;
+    margin: 10px auto 0 auto;
+}
+
+/*  Hace que las tarjetas estén alineadas en filas */
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+}
